@@ -1,4 +1,9 @@
-export default function ProductCard({productName, category, stockNumber, imageUrl} ) {
+export default function ProductCard({
+  productName,
+  category,
+  stockNumber,
+  imageUrl,
+}) {
   return (
     <div className="card h-100">
       <div className="card-body">

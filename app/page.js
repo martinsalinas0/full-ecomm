@@ -1,8 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css";
 import ProductPage from "./components/productsPage";
 
 export default function Home() {
   return (
-    <ProductPage /> 
+    <div className="">
+      <div className="m-4">
+        <ProductPage />{" "}
+      </div>
+    </div>
   );
 }
