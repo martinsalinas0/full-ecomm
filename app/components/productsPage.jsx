@@ -23,10 +23,14 @@ export default function ProductPage() {
 
       <div className="row g-4">
         <div className="col-md-4">
-          <ProductCard />
+          <ProductCard
+          productName = "T-shirt"
+          category="gardem"
+          stockNumber="343"
+          imageUrl="https://picsum.photos/id/26/367/267"/>
         </div>
         <div className="col-md-4">
-          <ProductCard /> 
+          <div>Product Card</div> 
         </div>
         <div className="col-md-4">
           
